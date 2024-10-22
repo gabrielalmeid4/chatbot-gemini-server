@@ -15,8 +15,6 @@ app.use(cors({
   origin: '*',
 }));
 
-// Configura o multer para armazenar os arquivos na pasta 'uploads/'
-//const upload = multer({ dest: 'uploads/' });
 const port = 3000; // Porta do servidor
 
 // Chave da API do Google Generative AI
