@@ -1,4 +1,3 @@
-// Importações necessárias
 const express = require('express'); 
 const multer = require('multer'); 
 const { GoogleGenerativeAI } = require('@google/generative-ai'); 
