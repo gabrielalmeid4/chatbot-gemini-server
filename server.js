@@ -3,7 +3,6 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const { GoogleAIFileManager } = require('@google/generative-ai');
 const path = require('path');
 const cors = require('cors'); 
-const dotenv = require('dotenv'); 
 
 // Cria o app Express
 const app = express();
